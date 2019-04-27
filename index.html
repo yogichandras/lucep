@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lucep</title>
+</head>
+<link href="index.min.css" rel="stylesheet">
+<body>
+    <button class="btn" id="btn"><img src="ring2.png" class="btn-img">Click here to get a call-back</button>
+    <div class="content hideit" id="content">
+        <button class="btn-close" id="btn-close">X</button>
+        <div class="form">
+            <p class="header">DO YOU WANT A CALLBACK?</p>
+            <p class="desc">Please give us your details and we will get back to you.</p>
+            <form id="formdata">
+                <input type="text" id="email" placeholder="Email">
+                <p class="err" id="err">Please, enter valid email address</p>
+
+                <select id="reason">
+                    <option>I'm interested in Content</option>
+                    <option>I'm interested in Design</option>
+                </select>
+
+                <button type="button" class="submit" id="submit"><div class="spinner" id="spinner"></div>Call Now</button>
+            </form>
+            <p class="footer">Schedule a call for later</p>
+        </div>
+    </div>
+</body>
+<script src="index.min.js"></script>
+</html>
